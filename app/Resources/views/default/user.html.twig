@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <pre>{{ user }}
+
+        {% for key,value in iterator %}
+            <a href="{{ value }}" tite="Show files from {{ value }}">{{ value }}</a>
+        {% endfor %}
+    </pre>
+{% endblock %}
