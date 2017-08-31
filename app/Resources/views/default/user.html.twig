@@ -1,10 +1,21 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <pre>{{ user }}
-
-        {% for key,value in iterator %}
-            <a href="{{ value }}" tite="Show files from {{ value }}">{{ value }}</a>
-        {% endfor %}
-    </pre>
+    <div>
+        <table>
+            <caption><a id="top"></a>{{ user }}</caption>
+            <tr>
+                <td valign="top">
+                    {% for key,path in pathNamess %}
+                        <div><a href="#{{ path }}" tite="Show files from {{ path }}">{{ path }}</a></div>
+                    {% endfor %}
+                </td>
+                <td valign="top">
+                    {% for key,path in pathNamess %}
+                        <div><a href="#top">top</a> <a id="{{ path }}">{{ path }}</a></div>
+                        <pre>{{ paths[key] }}</pre>
+                    {% endfor %}</td>
+            </tr>
+        </table>
+    </div>
 {% endblock %}

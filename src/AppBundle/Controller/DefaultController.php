@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Finder\Finder;
+use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
@@ -43,11 +44,14 @@ class DefaultController extends Controller
             ->files()
             ->name('*.ahk')
             ->in($baseDir);
-        $i=0;
-        foreach(iterator_to_array($iterator) as $path)
-            $iterator1[$i++] = $this->generateUrl('homepage').str_replace($baseDir.DIRECTORY_SEPARATOR,'',$path);
+        $i=0;$paths=[];$pathsNames=[];
+        foreach(iterator_to_array($iterator) as $path){
+            $pathsNames[$i] = str_replace($baseDir.DIRECTORY_SEPARATOR,'',$path);
+            $paths[$i] = file_get_contents($path);$i++;
+        }
+
         return $this->render('default/user.html.twig', [
-            'user' => $user,'iterator' => $iterator1, //$this->generateUrl('homepage')
+            'user' => $user, 'paths'=>$paths, 'pathNamess' => $pathsNames, //$this->generateUrl('homepage')
         ]);
     }
 }
