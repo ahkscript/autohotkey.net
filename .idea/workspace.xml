@@ -14,30 +14,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.27091634">
-                <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
@@ -55,8 +31,8 @@
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -65,11 +41,24 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.038462">
-              <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state vertical-scroll-proportion="-18.961538">
+              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
               <folding>
-                <element signature="e#391#1177#0#PHP" expanded="true" />
+                <element signature="e#40#99#0#PHP" expanded="true" />
+                <element signature="e#432#1218#0#PHP" expanded="true" />
+                <element signature="e#1284#2060#0#PHP" expanded="true" />
+                <element signature="e#2065#2497#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autohotkey.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geshi/autohotkey.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,9 +67,115 @@
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/user.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.45698926">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
               <folding>
                 <element signature="n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geshi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geshi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-462.80768">
+              <caret line="2037" column="48" selection-start-line="2037" selection-start-column="48" selection-end-line="2037" selection-end-column="48" />
+              <folding>
+                <element signature="e#5911#6266#0#PHP" expanded="true" />
+                <element signature="e#6335#6592#0#PHP" expanded="true" />
+                <element signature="n#GeSHi#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_version#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#error#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_language_name#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_source#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_language#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_language_path#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_supported_languages#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_language_fullname#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_header_type#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_overall_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_overall_class#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_overall_id#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_classes#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_code_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_line_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_line_numbers#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_multiline_span#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_multiline_span#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_keyword_group_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_keyword_group_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_comments_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_comments_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_escape_characters_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_escape_characters_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_brackets_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_brackets_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_symbols_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_symbols_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_strings_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_strings_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_script_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_numbers_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_numbers_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_methods_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_methods_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_regexps_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_regexps_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_case_sensitivity#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_case_keywords#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_tab_width#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_use_language_tab_width#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_real_tab_width#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_strict_mode#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#disable_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_language_name_from_extension#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#load_from_file#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#add_keyword#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#remove_keyword#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#add_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#remove_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#optimize_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_header_content#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_footer_content#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_header_content_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_footer_content_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_inner_code_block#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_url_for_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_link_styles#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_link_target#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_important_styles#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_important_blocks#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_ids#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#highlight_lines_extra#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_highlight_lines_extra_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_line_ending#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#start_line_numbers_at#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_encoding#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#enable_keyword_links#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#build_style_cache#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#parse_code#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#indent#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#change_case#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#handle_keyword_replace#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#handle_regexps_callback#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#handle_multiline_regexps#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#parse_non_string_part#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#set_time#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_time#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#merge_arrays#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#load_language#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#finalise#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#header#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#footer#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#replace_keywords#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#hsc#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#_genCSSName#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_stylesheet#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#get_line_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#optimize_regexp_list#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="n#_optimize_regexp_list_tokens_to_string#0;n#GeSHi#0;n#!!top" expanded="true" />
+                <element signature="e#204732#205168#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,6 +188,7 @@
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
               <folding>
                 <element signature="n#pre#0;n#!!top" expanded="true" />
+                <marker date="1504132145804" expanded="true" signature="32:229" placeholder="{% block body ...%}" />
               </folding>
             </state>
           </provider>
@@ -141,8 +237,10 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/default.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/user.html.twig" />
+        <option value="$PROJECT_DIR$/web/app.php" />
+        <option value="$PROJECT_DIR$/src/geshi.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/user.html.twig" />
       </list>
     </option>
   </component>
@@ -217,6 +315,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ahkArchive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,7 +484,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,Show Constants,Show Protected Members,Show Private Members,ALPHA_COMPARATOR,Show Fields" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -390,12 +502,12 @@
     <frame x="-18" y="42" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -459,14 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -519,6 +623,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
           <folding>
             <element signature="n#pre#0;n#!!top" expanded="true" />
+            <marker date="1504132145804" expanded="true" signature="32:229" placeholder="{% block body ...%}" />
           </folding>
         </state>
       </provider>
@@ -533,12 +638,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geshi/autohotkey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/sensio/distribution-bundle/SensioDistributionBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geshi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-462.80768">
+          <caret line="2037" column="48" selection-start-line="2037" selection-start-column="48" selection-end-line="2037" selection-end-column="48" />
+          <folding>
+            <element signature="e#5911#6266#0#PHP" expanded="true" />
+            <element signature="e#6335#6592#0#PHP" expanded="true" />
+            <element signature="n#GeSHi#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_version#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#error#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_language_name#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_source#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_language#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_language_path#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_supported_languages#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_language_fullname#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_header_type#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_overall_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_overall_class#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_overall_id#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_classes#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_code_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_line_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_line_numbers#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_multiline_span#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_multiline_span#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_keyword_group_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_keyword_group_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_comments_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_comments_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_escape_characters_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_escape_characters_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_brackets_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_brackets_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_symbols_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_symbols_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_strings_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_strings_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_script_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_numbers_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_numbers_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_methods_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_methods_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_regexps_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_regexps_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_case_sensitivity#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_case_keywords#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_tab_width#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_use_language_tab_width#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_real_tab_width#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_strict_mode#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#disable_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_highlighting#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_language_name_from_extension#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#load_from_file#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#add_keyword#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#remove_keyword#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#add_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#remove_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#optimize_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_header_content#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_footer_content#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_header_content_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_footer_content_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_inner_code_block#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_url_for_keyword_group#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_link_styles#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_link_target#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_important_styles#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_important_blocks#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_ids#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#highlight_lines_extra#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_highlight_lines_extra_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_line_ending#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#start_line_numbers_at#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_encoding#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#enable_keyword_links#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#build_style_cache#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#parse_code#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#indent#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#change_case#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#handle_keyword_replace#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#handle_regexps_callback#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#handle_multiline_regexps#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#parse_non_string_part#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#set_time#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_time#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#merge_arrays#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#load_language#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#finalise#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#header#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#footer#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#replace_keywords#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#hsc#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#_genCSSName#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_stylesheet#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#get_line_style#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#optimize_regexp_list#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="n#_optimize_regexp_list_tokens_to_string#0;n#GeSHi#0;n#!!top" expanded="true" />
+            <element signature="e#204732#205168#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.038462">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state vertical-scroll-proportion="-18.961538">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
           <folding>
-            <element signature="e#391#1177#0#PHP" expanded="true" />
+            <element signature="e#40#99#0#PHP" expanded="true" />
+            <element signature="e#432#1218#0#PHP" expanded="true" />
+            <element signature="e#1284#2060#0#PHP" expanded="true" />
+            <element signature="e#2065#2497#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -546,7 +782,7 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/user.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45698926">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
             <element signature="n#td#0;n#tr#0;n#table#0;n#div#0;n#!!top" expanded="true" />
           </folding>

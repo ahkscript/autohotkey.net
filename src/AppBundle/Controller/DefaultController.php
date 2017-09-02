@@ -7,6 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\Request;
+require_once __DIR__.'/../../geshi.php';
 
 class DefaultController extends Controller
 {
@@ -47,11 +48,23 @@ class DefaultController extends Controller
         $i=0;$paths=[];$pathsNames=[];
         foreach(iterator_to_array($iterator) as $path){
             $pathsNames[$i] = str_replace($baseDir.DIRECTORY_SEPARATOR,'',$path);
-            $paths[$i] = file_get_contents($path);$i++;
+            $paths[$i] = $this->GeSHI(file_get_contents($path)) ;$i++;
         }
 
         return $this->render('default/user.html.twig', [
             'user' => $user, 'paths'=>$paths, 'pathNamess' => $pathsNames, //$this->generateUrl('homepage')
         ]);
+    }
+    private function GeSHI($source = null){
+        //GeSHi($source = '', $language = '', $path = '')
+        $geshi = new \GeSHi($source,'Autohotkey');
+        if (!empty($source)) {
+            $geshi->set_source($source);
+        }
+        if (!empty($language)) {
+            $geshi->set_language('Autohotkey');
+        }
+        //$geshi->set_language_path('/../../geshi/autohotkey.php');
+        return $geshi->parse_code();
     }
 }

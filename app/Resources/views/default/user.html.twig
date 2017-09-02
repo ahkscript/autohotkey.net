@@ -13,7 +13,7 @@
                 <td valign="top">
                     {% for key,path in pathNamess %}
                         <div><a href="#top">top</a> <a id="{{ path }}">{{ path }}</a></div>
-                        <pre>{{ paths[key] }}</pre>
+                        <div>{{ paths[key] | raw }}</div>
                     {% endfor %}</td>
             </tr>
         </table>
