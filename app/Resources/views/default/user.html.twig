@@ -1,8 +1,18 @@
 {% extends 'base.html.twig' %}
-
+{% block stylesheets %}
+<style>
+    .codebox {
+        width:50%;
+        height:300px;
+        overflow: auto;
+    }
+    body{
+        width:800px;
+    }
+</style>{% endblock %}
 {% block body %}
     <div>
-        <table>
+        <table width="800px">
             <caption><a id="top"></a>{{ user }}</caption>
             <tr>
                 <td valign="top">
@@ -13,9 +23,9 @@
                 <td valign="top">
                     {% for key,path in pathNamess %}
                         <div><a href="#top">top</a> <a id="{{ path }}">{{ path }}</a></div>
-                        <div>{{ paths[key] | raw }}</div>
+                        <div class="codebox" id="codebox">{{ paths[key] | raw }}</div>
                     {% endfor %}</td>
             </tr>
-        </table>
-    </div>
+</table>
+</div>
 {% endblock %}

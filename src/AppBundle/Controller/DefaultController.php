@@ -7,7 +7,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\Request;
-require_once __DIR__.'/../../geshi.php';
+//require_once __DIR__.'/../../geshi.php';
 
 class DefaultController extends Controller
 {
